@@ -25,6 +25,16 @@ body, html {
     padding: 20px 40px;
 }
 
+.titulo-box {
+    padding: 15px 40px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
 /* Seções de texto */
 section {
     padding: 40px 80px;
@@ -58,3 +68,11 @@ section {
     background: #3e8e41;
     transform: scale(1.1);
 }
+
+section p::before {
+    content: "~ ";
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
+
