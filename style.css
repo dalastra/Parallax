@@ -1,0 +1,60 @@
+/* Configurações gerais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.7;
+}
+
+/* Efeito Parallax */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 40px;
+}
+
+/* Seções de texto */
+section {
+    padding: 40px 80px;
+    text-align: justify;
+    font-size: 18px;
+    background: #fff;
+}
+
+/* Imagens Unsplash */
+#natureza { background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470"); }
+#praias { background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e"); }
+#montanhas { background-image: url("https://images.unsplash.com/photo-1482192596544-9eb780fc7f66"); }
+#florestas { background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e"); }
+
+/* Botão acessibilidade/topo */
+.topo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.topo:hover {
+    background: #3e8e41;
+    transform: scale(1.1);
+}
